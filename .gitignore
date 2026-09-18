@@ -1,0 +1,14 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.DS_Store
+.idea/
+.ipynb_checkpoints/
+output/
+tmp/
+
+# Local course brief and unused IDE starter file
+AIGC5500_Lab01_Training_In_PyTorch.pdf
+main.py
