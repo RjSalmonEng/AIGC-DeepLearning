@@ -1,4 +1,4 @@
-# Training Your First Network in PyTorch
+# Lab 1
 
 A two-layer neural network trained to predict salary from years of experience. The project compares a baseline Adam learning rate of `0.001` with one controlled variation: a learning rate of `0.01`.
 
@@ -37,8 +37,7 @@ These values come from the recorded run in `Lab1.ipynb`. Small numerical differe
 
 ## What changed and why
 
-Exactly one setting changed: the learning rate increased from `0.001` to `0.01`. A larger learning rate makes Adam take larger parameter-update steps, so I expected the variation to reduce its loss faster. The result matched that expectation: the variation reached a low loss within the first several epochs, while the baseline decreased more gradually. The variation showed small oscillations after reaching the low-loss region, which is consistent with larger steps moving around the minimum. A much larger learning rate could overshoot the useful region and make training unstable.
+I updated the learning rate, it was increased `0.001` to `0.01`. A larger learning rate makes Adam take larger parameter-update steps, so I expected the variation to reduce its loss faster. The result matched that expectation: the variation reached a low loss within the first several epochs, while the baseline decreased more gradually. The variation showed small oscillations after reaching the low-loss region, which is consistent with larger steps moving around the minimum. A much larger learning rate could overshoot the useful region and make training unstable.
 
-## Known limitations
-
-The dataset is very small, and the experiment uses one train/test split and one recorded run. The plotted curves show training loss, so they demonstrate optimization behavior but do not by themselves establish how well the model generalizes to unseen data. A larger study would repeat the comparison across several random seeds and report test-set performance.
+## GEN AI Acknowledgement:
+Gen AI was used to create the boilerplate code for this project; by that i mean the `READMe.md` and `requirements.txt` files. along with the gitignore,
