@@ -12,3 +12,4 @@ tmp/
 # Local course brief and unused IDE starter file
 AIGC5500_Lab01_Training_In_PyTorch.pdf
 main.py
+**/.venv/
