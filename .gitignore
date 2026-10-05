@@ -13,3 +13,9 @@ tmp/
 AIGC5500_Lab01_Training_In_PyTorch.pdf
 main.py
 **/.venv/
+
+# Lab 3: downloaded dataset, pretrained weights cache and course brief
+Lab-3/data/
+.cache/
+*.pth
+AIGC5500_Lab03.pdf
