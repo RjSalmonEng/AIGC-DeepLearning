@@ -1,0 +1,7 @@
+# Run on Google Colab with a GPU runtime (T4 is enough). Colab already ships torch.
+torch
+transformers>=4.56
+peft
+datasets
+pandas
+matplotlib
